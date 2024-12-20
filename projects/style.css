@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+}
+/*Navigation Bar*/
+.hnavbar{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #111;
+    overflow: auto;
+    /*position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;*/
+}
+
+.hnav{
+    float:left;
+}
+
+.hnavl{
+    float:right;
+    margin-right: 5px;
+}
+
+.hnavbtn{
+    display: block;
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.active{
+    background-color: mediumseagreen;
+}
+.hnavbtn:hover:not(.active){
+    background-color: crimson;
+    text-shadow: 3px 3px 5px gray;
+}
+/*Navigation Bar*/
+
+#bck2{
+    display: none;
+}
+
+.heading{
+    margin-top: 10px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.picsl{
+    margin: 10px;
+    width: 35%;
+    height: auto;
+    float: left;
+}
+
+.picsr{
+    margin: 10px;
+    width: 35%;
+    height: auto;
+    float: right;
+}
+
+.desc{
+    font-size: large;
+    text-align: center;
+}
+
+.desc a{
+    text-decoration: none;
+    color: darkred;
+    transition: 0.5s linear;
+}
+
+.desc a:hover{
+    color: crimson;
+    text-decoration: underline;
+}
+
+/*Footer*/
+
+.footer{
+    clear: both;
+    background-color: #111;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.fdesc{
+    text-align: center;
+    color:white;
+}
+
+.fdesc span{
+    font-size: 30px;
+}
+
+.fa{
+    text-decoration: none;
+    color: #111;
+    background-color: #d9d9d9;
+}
+
+.fa-facebook{
+    padding: 10px 15px;
+}
+.fa-twitter{
+    padding: 10px 15px;
+}
+.fa-google{
+    padding: 10px 15px;
+}
+.fa-linkedin{
+    padding: 10px 15px;
+}
+.fa-youtube{
+    padding: 10px 15px;
+}
+
+.fa-facebook:hover{background-color:#3B5998;color: white;}
+.fa-twitter:hover{background-color:#55ACEE;color: white;}
+.fa-google:hover{background-color:#dd4b39;color: white;}
+.fa-linkedin:hover{background-color:#007bb5;color: white;}
+.fa-youtube:hover{background-color:#bb0000;color: white;}
+
+/*Footer*/
+
+@media screen AND (max-width:1000px) {
+    .picsl, .picsr{
+        width: 50%;
+    }
+}
+
+@media screen AND (max-width:750px) {
+    .picsl, .picsr{
+        width: 75%;
+    }
+
+    .dli{
+        display: none;
+    }
+}
+
+@media screen AND (max-width:520px) {
+    .picsl, .picsr{
+        width: 100%;
+    }
+
+    .heading{
+        font-size: 15px;
+    }
+    
+    #bck2{display: block;}
+    #bck1{display: none;}
+}
