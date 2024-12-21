@@ -1,1 +1,1 @@
-# architect-website
+Designed a responsive architectural portfolio website showcasing modern design principles and front-end development skills. The site features an intuitive navigation bar, dynamic gallery, contact form with validation, and social media integration. Built using HTML5 and CSS3, it ensures cross-platform compatibility. A blend of aesthetics and usability highlights professional expertise.
